@@ -1,0 +1,7 @@
+:root {
+	--dominantcolor: #5595aa;
+	--secondarycolor: #77aabb;
+	--accentcolor: #5595aa;
+
+	--boxShadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}

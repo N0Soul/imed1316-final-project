@@ -1,0 +1,171 @@
+@import "main.css";
+@import "custom.css";
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-alternate {
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.carousel {
+		display: none;
+	}
+
+	.carousel-alternate {
+		display: block;
+		width: 100%;
+	}
+}
+
+.fa-row {
+	background-color: black;
+	padding-top: 25px;
+	padding-bottom: 35px;
+	color: white;
+	font-weight: bold;
+}
+
+.fa-row-icon {
+	font-size: 60px;
+	color: white;
+	margin-top: 10px;
+}
+
+.fa-row a,
+.fa-row a:hover {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.fa-row-icon:hover {
+	transform: scale(1.1);
+}
+
+.volunteer-div {
+	position: relative;
+	background-color: #f0f0ef;
+	padding: 25px;
+	height: auto;
+	min-width: 450px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.volunteer-img {
+	position: relative;
+	float: left !important;
+	padding-right: 20px;
+}
+
+@media (max-width: 900px) {
+	.volunteer-img {
+		width: 100%;
+		padding: 0px;
+		float: none;
+	}
+}
+.btn-volunteer {
+	position: relative;
+	float: left !important;
+	clear: both;
+	margin-top: 10px;
+	border-color: var(--secondarycolor) !important;
+	color: white;
+	background-color: var(--secondarycolor) !important;
+}
+
+.btn-volunteer:hover {
+	background-color: white !important;
+	color: var(--secondarycolor) !important;
+}
+
+.btn-contact {
+	position: relative;
+	clear: both;
+	margin-top: 10px;
+	border-color: var(--secondarycolor) !important;
+	color: white;
+	background-color: var(--secondarycolor) !important;
+}
+
+.btn-contact:hover {
+	background-color: white !important;
+	color: var(--secondarycolor) !important;
+}
+
+.gallery-box {
+	margin-top: 20px !important;
+}
+
+.img-fancybox {
+	width: 200px;
+	height: auto;
+}
+
+@media screen and (max-width: 575px) {
+	.img-fancybox {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.gallery-button {
+	margin-top: 15px;
+}
+
+.btn-gallery {
+	border-color: var(--secondarycolor) !important;
+	color: white;
+	background-color: var(--secondarycolor) !important;
+	margin-bottom: 15px;
+}
+
+.btn-gallery:hover {
+	background-color: white !important;
+	color: var(--secondarycolor) !important;
+}
+
+.contact-div {
+	position: relative;
+	background-color: #f0f0ef;
+	padding: 25px;
+	height: auto;
+	min-width: 450px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contact-img {
+	position: relative;
+	float: right !important;
+	padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+	.contact-img {
+		width: 100%;
+		padding: 0px;
+		float: none;
+	}
+}
+
+.cropped {
+	width: 200px;
+	height: 200px;
+	margin-top: 15px;
+	border-radius: 50%;
+	clip-path: circle(50% at 50% 50%);
+	border: 10px solid;
+	border-color: var(--secondarycolor) !important;
+}
+
+#staff {
+	position: relative;
+	padding-bottom: 20px;
+}
